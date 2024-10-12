@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px; 
+    background-color: aqua;
+}
+
+
+/* Layout Styling */
+
+
+nav {
+    background-color: antiquewhite;
+    padding: 10px;
+    margin-bottom: 20px; 
+    box-sizing: border-box;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around; 
+    box-sizing: border-box;
+}
+
+nav ul li {
+    background-color: aquamarine;
+    padding: 10px;
+    border: 1px solid #888;
+}
+
+/* Container for Main and Sidebar */
+.container {
+    display: flex;
+    gap: 20px;
+}
+
+/* Main Content Styling */
+main {
+    flex: 3;
+    background-color: #eee;
+    padding: 20px;
+    border: 1px dashed #999;
+}
+
+/* Sidebar Styling */
+aside {
+    flex: 1;
+    background-color: #f4f4f4;
+    padding: 40px;
+    border: 1px dashed #999; 
+    float: left;
+}
+
+/* Image Container Styling */
+.image-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border: 20px solid #ccc;
+    border-radius: 30px;
+}
+
+/* Footer Styling */
+footer {
+    
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px; 
+    margin-left: 50px; 
+
+}
+
+/* Placeholder Elements */
+nav, main, aside, footer {
+    color:#000000;
+    font-size: 1.2rem;
+    background-color: antiquewhite;
+}
