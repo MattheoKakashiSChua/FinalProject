@@ -91,7 +91,7 @@ nav, main, aside, footer, article {
 a:link {
     background-color: cyan;
     
-    text-decoration: italicized;
+    text-decoration: none;
     border: solid black 1px;
     padding: 1px;
     }
