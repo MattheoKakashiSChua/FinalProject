@@ -87,3 +87,22 @@ nav, main, aside, footer, article {
     font-size: 1.2rem;
     background-color: antiquewhite;
 }
+
+a:link {
+    background-color: cyan;
+    
+    text-decoration: italicized;
+    border: solid black 1px;
+    padding: 1px;
+    }
+    a:visited {
+    background-color: white;
+    }
+    a:hover {
+    background-color:
+    black;
+    }
+    a:active {
+    background-color:
+    red;
+    }
