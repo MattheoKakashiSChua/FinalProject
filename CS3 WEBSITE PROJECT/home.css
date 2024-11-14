@@ -72,7 +72,7 @@ img {
 }
 
 /* Footer Styling */
-footer {
+footer, article {
     
     text-align: center;
     padding: 20px;
@@ -82,7 +82,7 @@ footer {
 }
 
 /* Placeholder Elements */
-nav, main, aside, footer {
+nav, main, aside, footer, article {
     color:#000000;
     font-size: 1.2rem;
     background-color: antiquewhite;
