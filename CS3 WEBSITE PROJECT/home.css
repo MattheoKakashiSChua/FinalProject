@@ -105,4 +105,8 @@ a:link {
     a:active {
     background-color:
     red;
-    }
+    } 
+
+a.one:link (color: red;) 
+a.one:visited (color: black;) 
+a.one:hover (font-size: 150%)
