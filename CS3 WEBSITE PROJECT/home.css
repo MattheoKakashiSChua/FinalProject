@@ -65,12 +65,16 @@ aside {
 }
 
 img {
-    max-width: 100%;
-    height: auto;
-    border: 20px solid #ccc;
-    border-radius: 30px;
+    width: 100px;
+    height: 90px; 
+    transition: width 1s; 
+    transition: height 1s; 
 }
 
+img:hover { 
+    width: 150px; 
+    height: 60px;
+}
 /* Footer Styling */
 footer, article {
     
@@ -96,7 +100,7 @@ a:link {
     padding: 1px;
     }
     a:visited {
-    background-color: white;
+    background-color: yellow;
     }
     a:hover {
     background-color:
@@ -107,6 +111,20 @@ a:link {
     red;
     } 
 
-a.one:link (color: red;) 
-a.one:visited (color: black;) 
-a.one:hover (font-size: 150%)
+a.one:link {color: blue;} 
+a.one:visited {color: cyan;}
+a.one:hover {font-size: 150% }
+
+a.two:link {color: blue;} 
+a.two:visited {color: cyan;}
+a.two:hover {font-size: 150% } 
+
+a.three:link {color: blue;} 
+a.three:visited {color: cyan;}
+a.three:hover {font-size: 150% } 
+
+a.four:link {color: blue;} 
+a.four:visited {color: cyan;}
+a.four:hover {font-size: 150% } 
+
+
