@@ -65,15 +65,15 @@ aside {
 }
 
 img {
-    width: 100px;
-    height: 90px; 
+    width: 60px;
+    height: 55px; 
     transition: width 1s; 
     transition: height 1s; 
 }
 
 img:hover { 
-    width: 150px; 
-    height: 60px;
+    width: 110px; 
+    height: 105px;
 }
 /* Footer Styling */
 footer, article {
@@ -100,7 +100,7 @@ a:link {
     padding: 1px;
     }
     a:visited {
-    background-color: yellow;
+    background-color: red;
     }
     a:hover {
     background-color:
