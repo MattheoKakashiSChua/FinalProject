@@ -69,6 +69,7 @@ img {
     height: 55px; 
     transition: width 1s; 
     transition: height 1s; 
+    transform: skew(-20deg)
 }
 
 img:hover { 
@@ -100,7 +101,7 @@ a:link {
     padding: 1px;
     }
     a:visited {
-    background-color: red;
+    background-color: green;
     }
     a:hover {
     background-color:
@@ -111,20 +112,44 @@ a:link {
     red;
     } 
 
-a.one:link {color: blue;} 
-a.one:visited {color: cyan;}
+a.one:link {color: cyan;} 
+a.one:visited {color: red;}
 a.one:hover {font-size: 150% }
 
-a.two:link {color: blue;} 
-a.two:visited {color: cyan;}
+a.two:link {color: cyan;} 
+a.two:visited {color: green;}
 a.two:hover {font-size: 150% } 
 
-a.three:link {color: blue;} 
-a.three:visited {color: cyan;}
+a.three:link {color: cyan;} 
+a.three:visited {color: yellow;}
 a.three:hover {font-size: 150% } 
 
-a.four:link {color: blue;} 
-a.four:visited {color: cyan;}
+a.four:link {color: cyan;} 
+a.four:visited {color: black;}
 a.four:hover {font-size: 150% } 
+
+
+li:nth-child(1) {
+    color: blue; 
+    font-weight: bold; 
+} 
+
+li:nth-child(2) { 
+    color: red; 
+    font-weight: bold; 
+} 
+
+.audio-only iframe {
+    width: 10;
+    height: 10;
+    border: 0;
+    visibility: hidden; /* Ensures the video is not visible */
+  } 
+
+.sprite { 
+    background: url('APPS.jpg') no-repeat -1px -4px; 
+    height: 500px; 
+    width: 500px;
+} 
 
 
