@@ -2,6 +2,15 @@
     <head>
         <title>Welcome to Mattheo's Website! Please explore!</title> 
         <link rel="stylesheet" href="home.css"> 
+        <style>
+            div {
+                width: 40px; 
+                height: 50px; 
+                border: 2px solid transparent; 
+                padding: 4px; 
+                border-image: background url('Another.jpg') 30 round;
+            }
+        </style>
     </head> 
 
     <body>
@@ -45,12 +54,24 @@
                 the issue and how to properly handle it. This video further summarizes our points in the main page and may or may not have a better description. Please watch if you want to. The video is right below: 
             </p>
 
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/JKHAmvcHSPk?si=p_bOilPlToVglim_" 
-            title="YouTube video player" frameborder="0" allow="accelerometer; 
-            autoplay; clipboard-write; encrypted-media; gyroscope; 
-            picture-in-picture; web-share" 
-            referrerpolicy="strict-origin-when-cross-origin" 
-            allowfullscreen>Your browser does not support the video element. Kindly update it to the latest version.</iframe>
+            <iframe width="560" height="315" 
+            src="https://www.youtube.com/embed/JKHAmvcHSPk?si=YtR508NbyD_ljYew" 
+            title="YouTube video player" 
+            frameborder="0" allow="accelerometer; autoplay; 
+            clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
+
+
+            <div class="audio-only">
+                <iframe 
+                  src="https://www.youtube.com/embed/JKHAmvcHSPk?si=YtR508NbyD_ljYew&autoplay=1"
+                  title="YouTube audio player" 
+                  frameborder="0" 
+                  allow="autoplay; encrypted-media" 
+                  referrerpolicy="strict-origin-when-cross-origin" 
+                  allowfullscreen>
+                </iframe>
+            </div>
             
         </article>
         
