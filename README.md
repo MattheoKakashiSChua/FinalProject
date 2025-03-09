@@ -8,3 +8,6 @@ Hello! Welcome to my Github! In my website / main page, I have prepared you a qu
 6. Before you submit, kindly review all your answers. Once you submit, you will get feedback and your score.
 7. You may freely press "Restart the Quiz" button if you want to get another chance.
 8. Have fun!
+
+Also if you are wondering, the website is owned by Mattheo Kakashi S. Chua (A.K.A Me), a student from Grade 9 - Sodium. 
+Please do not hesitate to contact me. That is all and I encourage you to take my quiz so that you will further understand my SDG Topic. Thank you!
