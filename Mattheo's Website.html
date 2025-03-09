@@ -1,19 +1,7 @@
 <HTML>
     <head>
         <title>Welcome to Mattheo's Website! Please explore!</title> 
-        <link rel="stylesheet" href="home.css"> 
-        <style> 
-            .sprite 
-            {
-                    background: url('Walking.jpg') no-repeat 0 0;  
-                    width: 400px;
-                    height: 500px;
-                    animation: varName 1s steps(4) infinite;
-                    @keyframes varName{
-                    from{background-position-x:0px;}
-                    to{background-position-x:-405px;}
-            }
-        </style>
+        <link rel="stylesheet" href="home.css">
     </head> 
 
     <body>
@@ -70,6 +58,24 @@
             <p>To summarize everything based on the list above, Gender Inequality is a generally concerning social issue in the physical world as it has complains about it and even negative feedback. Because of the factors that were listed, Gender Inequality would most likely be reduced by the time EVERYONE MASTERS Gender Equality which was our purpose on making this website.</p> 
         </footer> 
 
-        
+        <footer class="quiz active" id="quiz">
+            <div id="myQuiz">
+                <!-- Quiz content will be dynamically inserted here -->
+            </div>
+            <div class="navigation">
+                <button id="prev" disabled>Previous</button>
+                <button id="next">Next</button> 
+                <button id="submit">Submit</button> 
+                <button id="restart">Restart The Quiz</button>
+            </div>
+        </footer>
+        <footer class="quiz" id="results">
+            <div class="score" id="score-display"></div>
+        </footer>
+
+        <script src="quiz.js">
+            
+        </script>
     </body>
 </HTML>
+
